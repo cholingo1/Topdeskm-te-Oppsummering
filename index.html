@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy lage oversikt</title>
+</head>
+<body>
+    <h1>Oversikt for TopDesk</h1>
+
+    <button onclick="leggTilTotal()" id="addTotal">Legg til</button><input placeholder="Totalt antall saker" id="totalInput">
+    </br></br>
+    <!-- <button onclick="leggTilFelles() "id="addFelles">Legg til</button><input placeholder="Saker i felleskø" id="felleskøInput"> -->
+
+
+</br></br>
+
+
+    <button class="button" onclick="leggTilBestilling()">Legg til Bestilling</button>
+    <button class="button" onclick="leggTilRomsjekk()">Legg til Romsjekk</button>
+    <button class="button" onclick="leggTilBistand()">Legg til</br>Bistand</button>
+    <button class="button" onclick="leggTilUtlaan()">Legg til</br>Utlån</button>
+    </br></br>
+    <button class="button" onclick="leggTilUtildelt()">Legg til</br>Utildelt</button>
+    <button class="button" onclick="leggTilRomreservasjon()">Legg til Romreservasjon</button>
+    <button class="button" onclick="leggTilWindows()">Legg til Windows 11</button>
+
+
+</br></br>
+
+<center>
+<h1 id="obs">OBS! BARE UTILDELTE ROMSJEKKER SKAL TRYKKES PÅ KNAPPEN FOR</h1>
+</center>
+
+
+
+<p>Resultat</p>
+
+<table id="utskriftTabell">
+    
+  <tr>
+    <td>- Totalt antall saker</td>
+    <td id="totalAntallSaker">0</td>
+  </tr>
+  <tr>
+    <td>- Saker i felleskø</td>
+    <td id="totalAntallFelles">0</td>
+  </tr>
+  <tr>
+    <td>• Bestillingssaker</td>
+    <td id="antallBestilling">0</td>
+  </tr>
+  <tr>
+    <td>• Romsjekkssaker</td>
+    <td id="antallRomsjekk">0</td>
+  </tr>
+  <tr>
+    <td>• Bistandssaker</td>
+    <td id="totalBistand">0</td>
+  </tr>
+  <tr>
+    <td>• Utlånssaker</td>
+    <td id="totalUtlaan">0</td>
+  </tr>
+  <tr>
+    <td>• Utildelte saker</td>
+    <td id="antallUtildelt">0</td>
+  </tr>
+    <tr>
+    <td>Romreservasjoner</td>
+    <td id="antallRomreservasjon">0</td>
+  </tr>
+  <tr>
+    <td>Windows upgrade saker</td>
+    <td id="antallWindows">0</td>
+  </tr>
+  <tr>
+    <td>Tildelte saker</td>
+    <td id="tildelteSaker">0</td>
+  </tr>
+
+</table>
+
+
+
+
+</body>
+</html>
+
+
