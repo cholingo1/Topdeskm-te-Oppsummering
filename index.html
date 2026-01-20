@@ -19,21 +19,34 @@
 
 
     <button class="button" onclick="leggTilBestilling()">Legg til Bestilling</button>
+    <button class="button minus" onclick="trekkFraBestilling()"><br/>-</button>
     <button class="button" onclick="leggTilRomsjekk()">Legg til Romsjekk</button>
+    <button class="button minus" onclick="trekkFraRomsjekk()"><br/>-</button>
     <button class="button" onclick="leggTilBistand()">Legg til</br>Bistand</button>
+    <button class="button minus" onclick="trekkFraBistand()"><br/>-</button>
     <button class="button" onclick="leggTilUtlaan()">Legg til</br>Utlån</button>
+    <button class="button minus" onclick="trekkFraUtlaan()"><br/>-</button>
     </br></br>
     <button class="button" onclick="leggTilUtildelt()">Legg til</br>Utildelt</button>
+    <button class="button minus" onclick="trekkFraUtildelt()"><br/>-</button>
     <button class="button" onclick="leggTilRomreservasjon()">Legg til Romreservasjon</button>
+    <button class="button minus" onclick="trekkFraRomreservasjon()"><br/>-</button>
     <button class="button" onclick="leggTilWindows()">Legg til Windows 11</button>
+    <button class="button minus" onclick="trekkFraWindows()"><br/>-</button>
+    <button class="button" onclick="window.location.reload();">Clear everything</button>
+
 
 
 </br></br>
 
 <center>
-<h1 id="obs">OBS! BARE UTILDELTE ROMSJEKKER SKAL TRYKKES PÅ KNAPPEN FOR</h1>
+<div id="obsBoks">
+<h1 id="obs">OBS!</h1>
+<p>-Romsjekksaker som er tildelt = tildelt sak</p>
+<p>-Utildelte saker i felleskø = utildelt</p>
+<p>-Romreservasjoner ER IKKE LIK tildelt</p>
+</div>
 </center>
-
 
 
 <p>Resultat</p>
